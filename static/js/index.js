@@ -28,6 +28,9 @@ if ((width >= 1000)){
 function hireme(){
     alert("Still working on it!");
 }
+function send(){
+    alert("oops, sorry for wasting your time, but this does not work yet!")
+}
 
 function magnify(imglink){
     $("#img_here").css("background",`url('${imglink}') center center`);
