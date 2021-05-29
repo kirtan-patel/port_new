@@ -40,10 +40,10 @@
                 <button class="btn_one" onclick="hireme()">Hire Me</button><br>
                 <table>
                     <tr>
-                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-linkedin-in"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;" ><a class="social"href="https://www.facebook.com/" ><i class="fab fa-facebook"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></td>
                         
                     </tr>
                 </table>
@@ -53,6 +53,7 @@
     </table>
     <div id="work">
         <h1>work</h1>
+            <h3>Click on image to expand</h3>
         <div id="photos">
             <img onclick="magnify($(this).attr('src'))" src="static/images/beach.jfif">
             <img onclick="magnify($(this).attr('src'))" src="static/images/city.jfif">
@@ -125,7 +126,7 @@
                             <input type="text" placeholder="name" required>
                             <input type="email" placeholder="email" required><br>
                             <textarea placeholder="your message" required rows="5"></textarea><br>
-                            <button class="btn_one">send</button>
+                            <button class="btn_one" onclick="send()" >send</button>
                         </form> 
                     </td>
                 </tr>
